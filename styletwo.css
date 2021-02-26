@@ -1,0 +1,138 @@
+
+body{
+	font-family: Courier;
+	font-style: normal;
+  font-weight: normal;
+  line-height: 41px;
+}
+
+h1{
+  position: relative;
+  width: 374px;
+  height: 125px;
+  top: 101px;
+  left: 178px;
+
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+
+}
+
+
+.arrow{
+	font-size: 100px;
+  position: sticky;
+  top: 252px;
+  padding: 36px;
+}
+
+.left {
+	position: relative; 
+  left: 865px;
+}
+
+p{
+    position: relative;
+    width: 1137px;
+    left: 178px;
+    font-size: 25px;
+}
+
+.fillrect {
+  border: 1px solid black;
+  padding: 0 10px;
+  transition: all 0.5s ease;
+  background-color: black;
+}
+
+.fillrect:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+
+.stars{
+    position: relative;
+    left: 520px;
+}
+
+a:link {
+  text-decoration: none;
+   color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+
+.home{
+  position: relative;
+  left: 632px;
+}
+
+.page{
+  position: relative;
+  width: 1191px;
+  height: 1302px;
+  left: 183px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 600px){
+
+
+h1{
+  left: 20px;
+  font-size: 20px;
+}
+
+.arrow{
+  font-size: 50px;
+}
+
+.left{
+  left: 50px;
+  font-size: 20px;
+}
+
+p{
+     left: 80px;
+    font-size: 18px;
+    width: 500px;
+}
+
+.home {
+  left: 230px;
+}
+
+.page{
+  font-size: 20px;
+  width: 500px;
+  left: 50px;
+}
+}
+
+
+
+
+
